@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+} 
+h1{
+    font-size: 1.5rem;
+}    
+h4{
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: rgb(5, 0, 0);
+    margin-left: 20px ;
+}
+i{
+    font-size: 1.5rem;
+    color: rgb(10, 10, 10);
+}
+p,a{
+    font-size: .9rem;
+}
+hr{
+    border:1px solid rgb(8, 8, 8);
+    margin: 12px 0;
+}
+/* scroll bar style*/
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius:5px ;
+}
+.sidebar:hover::-webkit-scrollbar-thumb{
+    background: #666464;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #acaaaa;
+}
+/* header starts*/
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(248, 245, 245);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 0px;
+    padding-right: 25px;
+}
+.logo-img{
+    position:relative;
+    height: 50px;
+    width: 50px;
+
+}
+img{
+    top: 0;
+    left: 0;
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+}
+#logo-txt{
+    letter-spacing: -1.5px;
+    color: #181010;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    flex: 0 1 685px;
+    margin-left: 30px;
+}
+.search-container form{
+    position: relative;
+    width: 100%;
+
+}
+.search-container input{
+    height: 35px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    width:100%;
+    background-color: #fff;
+    border: 2px solid rgb(179, 175, 175);
+    color:black;
+    font-size: 1rem;
+    border-radius: 40px 0px  0px  40px;
+}
+.search{
+    min-width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    background-color: #c0baba;
+    outline:none;
+    border: none;
+    border-radius: 0px 40px  40px  0px;
+}
+.mic{
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #c0baba;
+    outline:none;
+    border: none;
+    border-radius: 50%;
+    
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.profile-container{
+    margin-left: 25px;
+}
+.profile-box{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
+}
+/* body container*/
+.body-container{
+    display: flex;
+    position: fixed;
+    /* Change to fixed */
+    height: calc(100vh - 60px);
+    top:69px;
+}
+.sidebar{
+    background-color: #fff;
+     padding-top: 10px;
+     width: 240px;
+     overflow-y: scroll;
+
+}
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    cursor: pointer;
+    height: 40px;
+}
+.sidebar-item:hover{
+    background-color: #e6e6e6;
+
+}
+.sidebar a{
+    color: #070707;
+    text-decoration: none;
+}
+.sidebar-item i{
+    margin-right: 24px;
+}
+/* main content */
+
+
+.profile-header{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+}
+.name{
+    font-size: 24px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    z-index: 20;
+    margin-left:10px;      
+}
+.username{
+    font-size: 20px;
+    padding-top:none;
+}
+.pp{
+    box-shadow: 0 8px 0 rga( 0, 0, 0, 0.2),;
+    padding-top: 10px;
+}
+
+
+.profile-btn button:hover{
+    background-color:#a7a2a2;   
+}
+.customise-btn{
+    width: 150px;
+    height: 30px;
+    border:none;
+    border-radius:  15px;
+    box-shadow: 0 0  10px #706e6e ;
+    cursor: pointer;
+
+}
+.manage-btn{
+    width: 150px;
+    height: 30px;
+    border:none;
+    border-radius:  15px;
+    box-shadow: 0 0  10px #706e6e;
+    cursor: pointer;
+}

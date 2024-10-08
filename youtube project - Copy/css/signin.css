@@ -1,0 +1,101 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 400px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+ h1{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+button:hover {
+    background-color: gray;
+}
+.mother{
+    width: 500px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.L-item{
+    display: flex;
+    gap: 10rem;
+    color: blue;
+}
+.btn-btn{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    border-radius:  4px;
+    border-width: 2px;
+    border-top: 2px;
+    border-bottom: 2px;
+    height: 20px;
+    box-sizing: border-box  ;
+    
+    
+}
+.input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    transition: 0.1s ease;
+    
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.puff{
+    color: blue;
+}
+button{
+    color: white;
+    background-color: blue;
+    width: 60px;
+    height: 30px;
+    border-radius: 0.3rem;
+    
+}
